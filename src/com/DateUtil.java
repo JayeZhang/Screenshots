@@ -11,8 +11,8 @@ import java.util.Date;
  * 
  * 类名称：	DateUtil  
  * 类描述：	时间操作工具类
- * 创建人：  	李万林
- * 创建时间：	2015-8-9 下午5:21:51  
+ * 创建人：  jie.zhang
+ * 创建时间：	2017-8-9 下午5:21:51
  * 修改人：
  * 修改时间：
  * @version 1.0.0
@@ -37,8 +37,8 @@ public class DateUtil extends PropertyEditorSupport {
 	/**
 	 * 
 	 * getSDFormat( 指定模式的时间格式)  
-	 * @param pattern   指定的格式
-	 * @return  SimpleDateFormat   时间格式
+	 * @param pattern				指定的格式
+	 * @return  SimpleDateFormat	时间格式
 	 * @since  1.0.0
 	 */
 	private static SimpleDateFormat getSDFormat(String pattern) {
@@ -175,13 +175,10 @@ public class DateUtil extends PropertyEditorSupport {
 	/**
 	 * 根据指定的格式将字符串转换成Date 如输入：2003-11-19 11:20:20将按照这个转成时间
 	 * 
-	 * @param src
-	 *            将要转换的原始字符窜
-	 * @param pattern
-	 *            转换的匹配格式
-	 * @return 如果转换成功则返回转换后的日期
+	 * @param src 		将要转换的原始字符窜
+	 * @param pattern 	转换的匹配格式
+	 * @return 			如果转换成功则返回转换后的日期
 	 * @throws ParseException
-	 * @throws AIDateFormatException
 	 */
 	public static Date parseDate(String src, String pattern)
 			throws ParseException {

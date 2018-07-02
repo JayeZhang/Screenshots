@@ -38,7 +38,8 @@ public class CaptureScreen {
             Random random = new Random();
             while(true){
                 for(int i = 0; i < time; i++){
-                    Thread.sleep(1000);// 睡眠1秒。
+                    // 睡眠1秒
+                    Thread.sleep(1000);
                     if(i + 1 >= time){
                         time=random.nextInt(3000)+1500;
                         String itme1 = DateUtil.getCurrentTime();
